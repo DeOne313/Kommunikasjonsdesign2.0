@@ -33,13 +33,15 @@ body {
 }
 
 .scrollContainer {
+
 width: 100vw;
 min-height: 60vh;
 overflow: hidden;
+
 transition: background-image 2s;
 }
 
-.scrollText {
+ .scrollText {
     margin: 100vh auto;
     max-width: 50rem;
     padding: 1rem;
@@ -61,10 +63,11 @@ transition: background-image 2s;
     background-position: center center;
 }
 
-.map{
-    position: relative;
-        max-width: 800px;
-      margin: 50px auto;
+  .map{
+
+ position: relative;
+ max-width: 800px;
+ margin: 50px auto;
 }
 
        .timeline {
@@ -74,13 +77,14 @@ transition: background-image 2s;
     }
 
 .timeline-item {
+
       position: relative;
       padding: 20px;
         background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      background-color: #d8d8d8;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #d8d8d8;
     }
 
      .timeline-item:hover {
@@ -110,22 +114,26 @@ transition: background-image 2s;
        background-size: cover;
       background-position: center center;
        background-repeat: no-repeat;
-      background-attachment: fixed;
+       background-attachment: fixed;
        padding-bottom: 50vh;
   }
 
 
 article{
+
   display: block;
   margin: auto;
   width: 60%;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 
 footer {
+
   background-color: darkslategrey;
+
+
       color: white;
       width: 100%;
 }
@@ -133,10 +141,13 @@ footer {
 footer div {
   padding: 2rem 2rem;
   margin: 0 auto;
+
   margin: auto;
   display: flex;
   flex-flow: row wrap;
+
   justify-content: space-between;
+
 }
  
    .kilder {
@@ -145,12 +156,17 @@ footer div {
   color: white;
   padding-left: 5vh;
   bottom: 0.5%;
+
+
   
 }
 
 figcaption{
+
   margin-top:5px;
   color: grey;
   font-size: smaller;
   font-style: italic;
+
+
 }

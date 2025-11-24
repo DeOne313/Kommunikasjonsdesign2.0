@@ -41,7 +41,7 @@
   header div {
   display: block;
     position:   relative;
-  z-index: 1;
+    z-index: 1;
    }
 
  #overskrift {
@@ -51,13 +51,13 @@
   border-radius:   1.5rem;
   max-width: 800px;
      text-align:    center;
-    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(6px);
+     box-shadow: 0 18px 45px rgba(0, 0, 0, 0.6);
+     backdrop-filter: blur(6px);
 }
 
   #overskrift h1 {
   margin: 0;
-  font-size: 2.6rem;
+   font-size: 2.6rem;
    letter-spacing:  0.03em;
     }
 
@@ -88,7 +88,7 @@
 footer {
   background-color:   #111a1b;
      color: white;
-    width: 100%;
+     width: 100%;
 }
 
 footer div {
@@ -108,14 +108,14 @@ footer div {
 
     .scrollContainer {
   background-image: url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2070&q=80");
-   background-attachment: fixed;
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
     background-position: center center;
-    width: 100vw;
+     width: 100vw;
      min-height: 60vh;
      overflow:   hidden;
-    position: relative;
+     position: relative;
 }
 
   .scrollContainer::before {
@@ -128,7 +128,7 @@ footer div {
 .scrollText {
   position:   relative;
  margin: 100vh  auto;
-     max-width: 50rem;
+  max-width: 50rem;
   padding: 1.5rem 2rem;
   background: rgba(0, 0, 0, 0.9);
   color: white;
