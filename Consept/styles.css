@@ -26,7 +26,7 @@ body {
 
 
 #overskrift{
-    background: rgba(0, 0, 0, 0.7);
+    background: #000000b3;
     color: white;
     padding: 2%;
     
@@ -45,7 +45,7 @@ transition: background-image 2s;
     margin: 100vh auto;
     max-width: 50rem;
     padding: 1rem;
-    background: rgba(0, 0, 0, 0.7);
+    background: #000000b3;
     color: white;
     text-align: center;
 }
@@ -82,14 +82,14 @@ transition: background-image 2s;
       padding: 20px;
         background-color: #fff;
         border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px #0000001a;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         background-color: #d8d8d8;
     }
 
      .timeline-item:hover {
       transform: scale(1.05);
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 20px #00000033;
     }
 
            .timeline-item::before {
