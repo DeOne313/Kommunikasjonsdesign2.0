@@ -1,5 +1,8 @@
 html {
     scroll-behavior: smooth;
+    background-image: url('https://images.unsplash.com/photo-1709575552102-2e2c58e445b2?auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
 }
 
 body {
@@ -13,14 +16,17 @@ body {
 }
 
 header {
-    width: 100vw;
+    width: 100%;
+    box-sizing: border-box;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1472220625704-91e1462799b2?q=80&w=2070&auto=format&fit=crop");
+    background-image: url("https://cdn.pixabay.com/photo/2024/06/18/00/08/frustrated-man-8836744_1280.jpg");
     background-size: cover;
     background-position: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 header h1 {
@@ -29,6 +35,7 @@ header h1 {
     text-shadow: 2px 2px 5px #000;
     background: #00000066;
     padding: 1.5rem;
+    text-align: center;
 }
 
 #changingBg {
@@ -36,7 +43,7 @@ header h1 {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    transition: background-image 2.8s ease-in-out; 
+    transition: background-image 3s ease-in-out;
 }
 
 .scrollContainer {
@@ -45,7 +52,7 @@ header h1 {
 }
 
 .scrollText {
-    min-height: 170vh; 
+    min-height: 170vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +60,7 @@ header h1 {
     text-align: center;
     font-size: 1.25rem;
     line-height: 1.5;
-    background: #00000080; 
+    background: #00000080;
     margin: 0 auto;
 }
 
@@ -67,7 +74,72 @@ a {
 }
 
 footer {
-    background-color: darkslategrey;
-    padding: 2rem;
-    text-align: center;
+
+  background-color: darkslategrey;
+
+
+      color: white;
+      width: 100%;
+}
+
+footer div {
+  padding: 2rem 2rem;
+  margin: 0 auto;
+
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: space-between;
+
+}
+
+.photo-legend {
+    position: absolute;
+    left: 2rem;
+    bottom: 2rem;
+    color: #fff;
+    background: #00000080;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    z-index: 2;
+}
+
+.photo-legend-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#sources {
+    background: #222;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    margin: 0 auto 1.5rem auto;
+    max-width: 600px;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 8px #00000014;
+}
+#sources h2 {
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 600;
+}
+#sources ul {
+    padding-left: 1.2em;
+    margin: 0;
+}
+#sources li {
+    margin-bottom: 0.3em;
+}
+#sources a {
+    color: #87c7ff;
+    word-break: break-all;
+    font-size: 0.95em;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+#sources a:hover {
+    color: #fff;
 }
